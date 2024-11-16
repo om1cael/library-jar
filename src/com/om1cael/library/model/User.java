@@ -56,7 +56,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "com.om1cael.library.model.User{" +
+        return "User{" +
                 "name='" + name + '\'' +
                 ", id=" + id +
                 ", email='" + email + '\'' +
