@@ -1,3 +1,5 @@
+package com.om1cael.library.model;
+
 public class User {
     private String name;
     private int id;
@@ -54,7 +56,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "com.om1cael.library.model.User{" +
                 "name='" + name + '\'' +
                 ", id=" + id +
                 ", email='" + email + '\'' +

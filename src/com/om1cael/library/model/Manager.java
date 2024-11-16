@@ -1,3 +1,5 @@
+package com.om1cael.library.model;
+
 public class Manager extends User {
     public Manager(String name, int id, String email) {
         super(name, id, email);
@@ -13,7 +15,7 @@ public class Manager extends User {
             return;
         }
 
-        System.out.println("Book " + user.getLoanedBook().getTitle() + " is loaned by " + user.getName());
+        System.out.println("com.om1cael.library.model.Book " + user.getLoanedBook().getTitle() + " is loaned by " + user.getName());
     }
 
     public void loanBook(User user, Book book) {

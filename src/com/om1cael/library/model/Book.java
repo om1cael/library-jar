@@ -1,3 +1,5 @@
+package com.om1cael.library.model;
+
 public class Book {
     private String title;
     private String author;

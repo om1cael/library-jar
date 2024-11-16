@@ -1,3 +1,9 @@
+package com.om1cael.library;
+
+import com.om1cael.library.model.Book;
+import com.om1cael.library.model.Manager;
+import com.om1cael.library.model.User;
+
 public class Main {
     public static void main(String[] args) {
         Book books[] = new Book[2];
